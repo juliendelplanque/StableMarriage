@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "StableMarriage-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"m1",
+		"m2",
+		"m3",
+		"w1",
+		"w2",
+		"w3",
+		"solver"
+	],
+	"name" : "SMSolverTest",
+	"type" : "normal"
+}

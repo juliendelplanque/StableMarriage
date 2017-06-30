@@ -1,0 +1,1 @@
+I am a solver for the stable marriage problem. I use the David Gale and Lloyd Shapley algorithm.

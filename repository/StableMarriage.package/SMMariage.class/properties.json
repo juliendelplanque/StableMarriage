@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulienDelplanque 6/30/2017 18:11",
+	"super" : "Object",
+	"category" : "StableMarriage-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"man",
+		"woman"
+	],
+	"name" : "SMMariage",
+	"type" : "normal"
+}
