@@ -12,4 +12,7 @@ stableMatching
 					(woman prefer: man over: actualMariage man)
 						ifTrue: [ 
 							self divorce: actualMariage.
-							self marry: man with: woman ] ] ]
+							self marry: man with: woman ]
+						ifFalse: [ 
+							freeMenWithPreferenceFIFO
+								addLast: man ] ] ]

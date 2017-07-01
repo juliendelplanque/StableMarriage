@@ -1,8 +1,10 @@
 computation
-divorce: mariage
-	mariage man
+divorce: marriage
+	marriage man
 		marriage: nil.
-	mariage woman
+	marriage man stillHasPreference
+		ifTrue: [ freeMenWithPreferenceFIFO addLast: marriage man ].
+	marriage woman
 		marriage: nil.
 	self marriages
-		remove: mariage
+		remove: marriage
