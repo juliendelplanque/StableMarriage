@@ -1,7 +1,7 @@
 tests-computation
 testMarryWith
 	| marriage |
-	marriage := SMMariage new man: m1; woman: w1; yourself.
+	marriage := SMMarriage new man: m1; woman: w1; yourself.
 	self
 		assert: m1 isFree;
 		assert: w1 isFree.

@@ -1,7 +1,7 @@
 computation
 marry: man with: woman
 	| marriage |
-	marriage := SMMariage new
+	marriage := SMMarriage new
 						man: man;
 						woman: woman;
 						yourself.
