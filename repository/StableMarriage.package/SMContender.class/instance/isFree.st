@@ -1,3 +1,3 @@
 accessing
 isFree
-	^ isFree
+	^ self marriage isNil

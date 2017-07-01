@@ -1,3 +1,3 @@
 accessing
 firstManHavingAWomanToProposeTo
-	^ self men detect: [ :man | (self isManFree: man) and: [ man stillHasPreference ] ] ifNone: [ nil ]
+	^ self men detect: [ :man | man isFree and: [ man stillHasPreference ] ] ifNone: [ nil ]

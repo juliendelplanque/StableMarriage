@@ -1,6 +1,8 @@
 computation
 divorce: mariage
-	mariage man isFree: true.
-	mariage woman isFree: true.
+	mariage man
+		marriage: nil.
+	mariage woman
+		marriage: nil.
 	self marriages
 		remove: mariage

@@ -8,8 +8,8 @@
 	"instvars" : [
 		"preferences",
 		"lastProposedIndex",
-		"isFree",
-		"data"
+		"data",
+		"marriage"
 	],
 	"name" : "SMContender",
 	"type" : "normal"
