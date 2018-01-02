@@ -11,7 +11,7 @@ Metacello new
 ```
 
 ## Example
-In the stable marriage problem, you have two list of `n` element: a list of men and a list of women. Each person rank the person of the other gender according to its preferences. The stable marriage algorithm find the best matches between men and women according to all rankings.
+In the stable marriage problem, you have two list of `n` element: a list of men and a list of women. Each person rank people of the other gender according to its preferences. The stable marriage algorithm find the best matches between men and women according to all rankings.
 
 In this implementation a man or a woman is represented as a `SMContender` object. The `#data` instance variable (and its accessor/mutator) of a `SMContender` allows to wrap the real objects to match.
 
