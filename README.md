@@ -41,7 +41,7 @@ SMSolver new
 		solve.
 "a Set(
   a SMMarriage(a SMContender('John'),a SMContender('Elia'))
-  a SMMarriage(a SMContender('Fred'),
-  a SMContender('Mary')) a SMMarriage(a SMContender('Alexander'),a SMContender('Judith'))
+  a SMMarriage(a SMContender('Fred'), a SMContender('Mary'))
+  a SMMarriage(a SMContender('Alexander'),a SMContender('Judith'))
 )"
 ```
