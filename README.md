@@ -1,5 +1,5 @@
 # StableMarriage
-A solver for the [stable marriage](https://en.wikipedia.org/wiki/Stable_marriage_problem#Algorithm) problem written in Pharo. The algorithm used is the
+A solver for the [stable marriage](https://en.wikipedia.org/wiki/Stable_marriage_problem#Algorithm) problem written in Pharo.
 
 ## Install
 In a fresh Pharo image, execute the following code snippet in a Playground.
@@ -13,7 +13,9 @@ Metacello new
 ## Example
 In the stable marriage problem, you have two list of `n` element: a list of men and a list of women. Each person rank the person of the other gender according to its preferences. The stable marriage algorithm find the best matches between men and women according to all rankings.
 
-In this implementation, for `3` men and `3` women, the implementation would be the following:
+In this implementation a man or a woman is represented as a `SMContender` object. The `#data` instance variable (and its accessor/mutator) of a `SMContender` allows to wrap the real objects to match.
+
+For `3` men and `3` women with a list of preferences for each contender, the implementation would be the following:
 
 ```
 "We define men."
